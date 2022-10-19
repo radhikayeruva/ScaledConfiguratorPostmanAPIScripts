@@ -1,0 +1,12 @@
+{
+  "name": "scaledconfiguratorpostmanapiscirpts",
+  "version": "1.0.0",
+  "description": "",
+   "scripts": {
+    "api-tests": "newman run ScaledConfiguratorsAPIwithGit.postman_collection.json -e QA.postman_environment.json"
+  },
+  "author": "",
+   "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
