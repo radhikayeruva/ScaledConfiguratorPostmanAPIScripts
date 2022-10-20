@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
    "scripts": {
-    "api-tests": "newman run ScaledConfiguratorsAPIAutomationwithJenkinsIntegrationCopy.postman_collection.json -e QA.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export"
+    "api-tests": "newman run ScaledConfiguratorsAPIwithGit.postman_collection.postman_collection.json -e QA.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export"
   },
   "author": "",
    "dependencies": {
