@@ -4709,7 +4709,7 @@
 													"pm.test(\"The response has correct count of level 3 SKU's for Columns list\", () => {\r",
 													"    //parse the response JSON and test the properties\r",
 													"    const responseJson = pm.response.json();\r",
-													"    pm.expect(responseJson.level2[2].level3).to.have.lengthOf(6);\r",
+													"    pm.expect(responseJson.level2[1].level3).to.have.lengthOf(6);\r",
 													"});\r",
 													"\r",
 													"\r",
